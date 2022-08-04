@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    align-content: center;
+    padding: 30px;
+    background-color:rgb(227, 237, 241);
+    font-weight: 600;
+    font-size: 18px;
+}
+.input-box{
+    border: 0px;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 30px;
+    background-color: #efefef;
+}
+.btn{
+    margin-top: 10px;
+    /* margin: 20px; */
+    width: 84px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: lightgray;
+}
+.messageDiv{
+    display: flex;
+    gap: 10px;
+    margin: 5px;    
+    align-items: baseline;
+}
+.nestedDiv{
+    display: flex;
+    gap: 10px;
+    margin: 5px;    
+    align-items: baseline;
+}
